@@ -1,1 +1,20 @@
+name: Viewable4DSkins
+version: '1.0.0'
+main: com.harv.viewable4dskins.Viewable4DSkins
+api-version: '26.2'
+description: Lets players wear 4D skins (FreeMinecraftModels) visible to Java and Bedrock players.
+softdepend: [FreeMinecraftModels, ResourcePackManager, floodgate, Geyser-Spigot]
 
+commands:
+  skin:
+    description: Wear a 4D skin
+    usage: /skin <name|list|off>
+    permission: viewable4dskins.use
+
+permissions:
+  viewable4dskins.use:
+    description: Use /skin
+    default: true
+  viewable4dskins.reload:
+    description: Use /skin reload
+    default: op

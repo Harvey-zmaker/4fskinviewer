@@ -1,0 +1,5 @@
+# Skin name players type -> FreeMinecraftModels model id.
+# The model id is the .bbmodel file name in lowercase, without the extension.
+# Example: Harvey.bbmodel -> harvey
+skins:
+  harvey: harvey
